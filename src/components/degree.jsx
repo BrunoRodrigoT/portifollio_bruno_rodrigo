@@ -15,7 +15,6 @@ const DegreeTitle = styled(Box)(() => ({
 }));
 
 const H1 = styled.p`
-  font-family: "Karla", sans-serif;
   font-size: 1.2em;
   color: #fff;
   opacity: 0.8;

@@ -9,8 +9,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(89.96deg, #6F0096 34.5%, #790092 40.59%, #D60067 99.96%);
   font-family: 'Karla', sans-serif;
-
+  color: #fff;
+  
 }
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+  background: #ffffff1a;
+  border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  border-radius: 15px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #E91E63;  
+  border-radius: 15px;
+  }
+  
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

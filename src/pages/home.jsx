@@ -6,6 +6,7 @@ import { Degree } from "../components/degree";
 import { WorkExperience } from "../components/workExperience";
 import BasicSpeedDial from "../components/speedAcess";
 import { MyProjects } from "../components/myProjects";
+import { Coment } from "../components/coment";
 
 
 
@@ -29,6 +30,7 @@ export default function Home() {
         <Degree />
         <WorkExperience/>
         <MyProjects/>
+        <Coment/>
         <BasicSpeedDial/>
         <Footer>
           @BrunoRodrigoT - All Rights Reserved

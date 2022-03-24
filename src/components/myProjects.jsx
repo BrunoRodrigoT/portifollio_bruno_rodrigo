@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 import Projects from "../assets/img/news.png";
 import RmImg from "../assets/img/RmImg.png";
 import TascomImg from "../assets/img/tascomimg.png";
-import { hover } from "@testing-library/user-event/dist/hover";
+
 
 const ProjectsGlobalBox = styled(Box)(() => ({
   maxWidth: 700,
@@ -80,7 +80,6 @@ export const MyProjects = () => {
           <a href="https://startlatam-rickandmorty.herokuapp.com/">
             <Image src={RmImg} />
           </a>
-          <P>Click on image or name to show.</P>
         </BoxProject>
 
         <BoxProject>
@@ -95,7 +94,6 @@ export const MyProjects = () => {
             {" "}
             <Image src={TascomImg} />
           </a>
-          <P>Click on image or name to show.</P>
         </BoxProject>
       </BoxOfBoxes>
     </ProjectsGlobalBox>
